@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #6896db85;
+}
+
+#erreurs input {
+	width: 100%;
+	text-align: center;
+	background: gold;
+	padding: 16px;
+}
+
+.buttons {
+	width: 50%;
+	float: left;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	padding: 20px;
+	box-shadow: 2px 2px 5px grey;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.inputs {
+	width: 50%;
+	text-align: center;
+	float: right;
+}
+
+.ajouter {
+	background-color: lightcoral;
+}
+
+.remplir {
+	background-color: lawngreen;
+}
+
+.dessiner {
+	background-color: orange;
+}
+
+canvas {
+		background: #859fb580 none repeat scroll 0% 0% !important;
+}
+
+.infos {
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	background-color: white;
+	padding: 50px;
+	border-radius: 20px;
+	z-index: -1;
+	opacity: 0.5;
+	left: 50px;
+}

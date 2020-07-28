@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="konva/konva.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="erreurs">
+        </div>
+
+        <div class="buttons">
+
+        <button class='ajouter' onclick="ajouterInput()">ajouter</button>
+        <button class='remplir' onclick="remplir()">remplir</button>
+        <button class="dessiner" onclick="dessiner()">Dessiner</button>
+        </div>
+        <div id="inputs" class="inputs">
+        </div>
+
+    </div>
+
+    <div id="infos" class="infos">
+        <p>
+            Cette application ne semble rien faire, et pourtant...<br>
+            Testez sa puissance ! CLIQUEZ sur REMPLIR puis DESSINER<br>
+            TADA !!! Les noeuds peuvent être déplacés à la souris !<br>
+            <br>
+            Ou à vous de créer votre propre graphe en cliquant sur AJOUTER
+        </p>
+    </div>
+
+    <div id="container"></div>
+    
+    <script src="partie1.js"></script>
+    <script src="partie2.js"></script>
+
+    <!--  partie 3 : KONVA ---------- -->
+    <script src="konva/bloc.js"></script>
+    <script src="konva/noeud.js"></script>
+    <script src="konva/arc.js"></script>
+    <script src="konva/croix.js"></script>
+    <script src="konva/main.js"></script>
+    
+
+</body>
+
+</html>
